@@ -1,0 +1,765 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 21px;
+    text-indent: 80px;
+    padding-left: 30px;
+    padding-top: 22px;
+    letter-spacing: -1px;
+
+}
+
+.head { 
+    width: 100%;
+    height: 70px;
+    color:white;
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    
+}
+
+img{
+   
+    height: 35px;
+    width: 36px;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+h3{
+    font-size: 17px;
+    color: grey;
+    position: absolute;
+    left: 780px;
+    top: 25px;
+
+
+}
+#merchandise{
+    font-size: 17px;
+    color: grey;
+    position: absolute;
+    left: 900px;
+    top: 25px;
+
+}
+
+#videohead{
+    font-size: 17px;
+    color: grey;
+    position: absolute;
+    left: 1030px;
+    top: 25px;
+}
+
+#About{
+    font-size: 17px;
+    color: grey;
+    position: absolute;
+    left: 1110px;
+    top: 25px;
+}
+
+#Contact{
+    font-size: 17px;
+    color: grey;
+    position: absolute;
+    left: 1180px;
+    top: 25px;
+}
+#firstpage{
+      background-color: white; 
+      width: 100%;
+      height: 510px;
+      position: relative;
+      display: flex;
+}
+#What{
+    position: absolute;
+    font-size:100px;
+    left: -50px;
+    top: 70px;
+    letter-spacing:-5px;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+#new{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    font-size:100px;
+    left: 70px;
+    top: 200px;
+    letter-spacing:-5px;
+}
+.chennai{
+    width: 840px;
+    height: 511px;
+    position: absolute;
+    left: 450px;
+    top: 0;
+}
+#blackbox{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+   position: relative;
+
+}
+#ALEXPERIENCE{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Imbue', serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    position: absolute;
+    bottom: 90px;
+    left: 230px;
+    letter-spacing: -7px;
+}
+hr{
+    width: 580px;
+    position: relative;
+    top: 100px;
+    left: 330px;
+    height: 5px;
+    background-color: white;
+}
+
+#AIW{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Imbue', serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #C2C0A6;
+    position: absolute;
+    bottom: 20px;
+    left: 300px;
+    letter-spacing: -1px;
+}
+.audience{
+     width: 100%;
+     height: 600px;
+     background: url(./Images/backgroundfirst.jpg);
+     background-size: cover;
+     position: relative;
+}
+
+.IND{
+    position:relative;
+    left: 180px;
+    cursor: pointer;
+    text-align: end;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+    width: 130px;
+    height: 50px;
+    text-align:center;
+    font-size: 20px;
+    padding-top: 13px;
+    padding-left: 50px;
+   
+}
+
+.flag{
+    position: absolute;
+    left: 20px;
+    top: 8px;
+}
+
+.USA{
+    position:absolute;
+    left: 350px;
+    text-align: end;
+    background-color: white;
+    border-radius: 6px;
+    color: black;
+    width: 130px;
+    cursor: pointer;
+    height: 50px;
+    text-align:center;
+    font-size: 20px;
+    padding-top: 13px;
+    padding-left: 50px;
+    opacity: 0.4;  
+
+}
+
+.usa{
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+
+.Singapore{
+    position:absolute;
+    left: 520px;
+    border-radius: 6px;
+    text-align: end;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    width: 160px;
+    height: 50px;
+    text-align:center;
+    font-size: 20px;
+    padding-top: 13px;
+    padding-left: 50px;
+    opacity: 0.4;  
+
+}
+
+.singf{
+    position: absolute;
+    left: 19px;
+    top: 15px;
+}
+
+.Malay{
+    position:absolute;
+    left: 720px;
+    border-radius: 6px;
+    text-align: end;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    width: 160px;
+    height: 50px;
+    text-align:center;
+    font-size: 20px;
+    padding-top: 13px;
+    padding-left: 50px;
+    opacity: 0.4;
+}
+
+.malf{
+    position: absolute;
+    left: 19px;
+    top: 10px;
+}
+
+.Australia{
+    position:absolute;
+    left: 915px;
+    text-align: end;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    width: 160px;
+    height: 50px;
+    text-align:center;
+    font-size: 20px;
+    padding-top: 13px;
+    padding-left: 50px;
+    border-radius: 6px;
+    opacity: 0.4;
+}
+
+.aus{
+    position: absolute;
+    left: 19px;
+    top: 9px;
+}
+
+.canadaname{
+    position:absolute;
+    left: 1110px;
+    text-align: end;
+    background-color: white;
+    color: black;
+    width: 160px;
+    height: 50px;
+    text-align:center;
+    font-size: 20px;
+    cursor: pointer;
+    padding-top: 13px;
+    border-radius: 6px;
+    padding-left: 50px;
+    opacity: 0.4;
+}
+
+.canadaf{
+    position: absolute;
+    left: 25px;
+    top: 9px;
+}
+
+#srimutha{
+    position: absolute;
+    font-size: 40px;
+    top: 150px;
+    left: 70px;
+    color:#11A5F5;
+    
+}
+.venueone{
+    position: absolute;
+    left: 930px;
+    top: 170px;
+    font-size: x-large;
+    color: white;
+
+}
+
+#soldbtn{
+     position: absolute;
+     background-color:red;
+     right: 200px;
+     width: 150px;
+     height: 50px;
+     text-align: center;
+     padding-top: 10px;
+     bottom: 320px;    
+     font-size: 25px;
+     cursor: pointer;
+     border: 1px solid white;
+     border-radius: 5px;
+}
+
+.line{
+    position: absolute;
+    width: 85%;
+    top: 320px;
+    left: 70px;
+    right: 40px;
+}
+.secvenue{
+    position: absolute;
+    left: 70px;
+    top: 350px;
+    font-size: 40px;
+    color: #11A5F5;
+    letter-spacing: 1px;
+   
+}
+
+.venuesec{
+    position: absolute;
+    left: 930px;
+    top: 390px;
+    font-size: x-large;
+    color: white;
+
+}
+
+.soldbtnsec{
+    position: absolute;
+    background-color:red;
+    right: 200px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    bottom: 100px;    
+    font-size: 25px;   
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+ .Aboutalex{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    position: relative;
+ }
+
+ .alexinchair{
+    position: absolute;
+    top: 100px;
+    width: 580px;
+    height: 580px;
+    left: 740px;
+    
+ }
+  
+.About{
+    position: absolute;
+    font-size: 110px;
+    letter-spacing: -8px;
+}
+
+.firlin{
+    position: absolute;
+    top: 140px;
+    left: 110px;
+    font-size: 40px;
+    color:chocolate;
+}
+
+.firstparagraph{
+    position: absolute;
+    left: 110px;
+    top: 200px;
+    width: 500px;
+    font-size: 30px;
+    text-align:justify;
+
+}
+
+#Biography{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    top: 80px;
+    background-color: #173540;
+}
+
+.biograph{
+    position: absolute;
+    color:rgb(241, 171, 241);
+    right: 15px;
+    top: 190px;
+    text-align: justify;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: -2px;
+
+
+}
+.stagevanakama{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 70px;
+}
+.Present{
+    position: absolute;
+    left: 300px;
+    top: 60px;
+    font-size: 60px;
+    color: white;
+}
+.secondhead{
+    position: absolute;
+    top: 130px;
+    left: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    color: gold;
+    
+}
+.thirdhead{
+    position: absolute;
+    top: 170px;
+    left: 350px;
+    color:white;
+    font-size: xx-large;
+}
+
+.Bio{
+    position: absolute;
+    right: 70px;
+    font-size: 90px;
+    top: 50px;
+    color: gold;
+}
+.firstbtn{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 170px;
+    border-radius: 6px;
+    text-align: center;
+    top: 520px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color:seagreen;
+    width: 130px;
+    height: 50px;
+    padding-top: 7px;
+}
+
+.secondbtn{
+    font-size: 30px;
+    color: white;
+    border-radius: 6px;
+    position: absolute;
+    left: 350px;
+    text-align: center;
+    top: 520px;
+    background-color:seagreen;
+    width: 130px;
+    border: 1px solid white;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 7px;
+}
+
+.thirdbtn{
+    font-size: 30px;
+    color: white;
+    border-radius: 6px;
+    position: absolute;
+    left: 550px;
+    text-align: center;
+    top: 520px;
+    background-color:seagreen;
+    width: 130px;
+    border: 1px solid white;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 7px;
+}
+
+.fourbtn{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 750px;
+    text-align: center;
+    top: 520px;
+    border-radius: 6px;
+    background-color:seagreen;
+    width: 130px;
+    border: 1px solid white;
+    cursor: pointer;
+    height: 50px;
+    padding-top: 7px;
+}
+
+.fivebtn{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 950px;
+    text-align: center;
+    top: 520px;
+    border-radius: 6px;
+    background-color:seagreen;
+    border: 1px solid white;
+    cursor: pointer;
+    width: 130px;
+    height: 50px;
+    padding-top: 7px;
+}
+
+.sixbtn{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 1150px;
+    text-align: center;
+    top: 520px;
+    background-color:seagreen;
+    width: 130px;
+    border-radius: 6px;
+    height: 50px;
+    border: 1px solid white;
+    cursor: pointer;
+    padding-top: 7px;
+}
+
+#Yogapage{
+    position: relative;
+    width: 100%;
+    height:650px;
+    top: 80px;
+    background-color: black;
+
+}
+
+.yogalogo{
+    position: absolute;
+    font-size: 200px;
+    font-family: 'Black Ops One', system-ui;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Imbue', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    top: -60px;
+    left: -40px;
+}
+
+.ylo{
+    position: absolute;
+    left: 600px;
+    top: 80px;
+    width: 700px;
+    height: 500px;    
+}
+
+.yogapara{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    width: 500px;
+    left: 70px;
+    top: 230px;
+    text-align: justify;
+
+}
+
+#lastpage{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 100px;
+}
+
+.email{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    font-size: 40px;
+    font-family: 'Imbue', serif;
+}
+
+.firstdown{
+    position: absolute;
+    top: 150px;
+    font-family: 'Imbue', serif;
+    font-size: 20px;
+    left: 100px;
+}
+
+.whats{
+    position: absolute;
+    top: 90px;
+    left: 520px;
+    font-size: 40px;
+    font-family: 'Imbue', serif;
+}
+
+.secondown{
+    position: absolute;
+    top: 150px;
+    font-family: 'Imbue', serif;
+    font-size: 20px;
+    left: 520px;
+}
+
+.social{
+    position: absolute;
+    top: 250px;
+    left: 520px;
+    font-size: 40px;
+    font-family: 'Imbue', serif;
+}
+
+.thirdown{
+    position: absolute;
+    top: 310px;
+    font-family: 'Imbue', serif;
+    font-size: 20px;
+    left: 520px;
+}
+
+.last{
+    position: absolute;
+    top: 90px;
+    left: 1070px;
+    font-size: 40px;
+    font-family: 'Imbue', serif;
+}
+
+.lastlin{
+    position: absolute;
+    text-align: justify;
+    right:20px;
+    top: 150px;
+}
+
+.whatsapp{
+    position: absolute;
+    top: 140px;
+    cursor: pointer;
+    left: 835px;
+}
+.insta{
+    position: absolute;
+    top: 350px;
+    cursor: pointer;
+    left: 515px;
+}
+.fb{
+    position: absolute;
+    top: 350px;
+    cursor: pointer;
+    left: 570px;
+}
+
+.x{
+    position: absolute;
+    top: 350px;
+    cursor: pointer;
+    left: 627px;
+}
+
+.youtube{
+    position: absolute;
+    top: 350px;
+    cursor: pointer;
+    left: 690px;
+}
+
+.lastmail{
+    position: absolute;
+    top: 215px;
+    cursor: pointer;
+    left: 1075px;
+    background-color:cornflowerblue;
+    width: 195px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 19px;
+    
+    border-radius: 8px;
+}
+
+.material-symbols-outlined{
+    position: absolute;
+    right: 79px;
+    top: 223px;
+    padding-right: 5px;
+}
+
+.lastbtn{
+    position: absolute;
+    border: 2px solid red;
+    top: 210px;
+    left: 130px;
+    color: white;
+    background-color: black;
+    width: 80px;
+    font-size: 25px;
+    height: 35px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 1px;
+    border-radius: 5px;
+}
+
+.lastblack{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    bottom: 0;
+    top: 20px;
+}
+.llast{
+    position: absolute;
+    top: 30px;
+    color: darkgray;
+    cursor:pointer;
+    text-align: center;
+    left: 25%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+a:hover{
+    color: yellow;
+}
